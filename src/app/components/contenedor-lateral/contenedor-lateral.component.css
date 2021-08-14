@@ -1,0 +1,19 @@
+#divCartasLateral{
+  width: 350px;
+  height: 350px;
+}
+
+ .img{
+   width: 120px;
+   height: 75px;
+ }
+
+.list-group-item{
+  background-color: #E2E2E2;
+}
+
+.contenido{
+  width: 300px;
+  height: 70px;
+  margin: auto;
+}
