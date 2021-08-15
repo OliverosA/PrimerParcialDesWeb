@@ -1,6 +1,6 @@
 #divCartasLateral{
   width: 350px;
-  height: 350px;
+  height: 400px;
 }
 
  .img{
@@ -10,10 +10,9 @@
 
 .list-group-item{
   background-color: #E2E2E2;
+  text-align: center;
 }
 
-.contenido{
-  width: 300px;
-  height: 70px;
-  margin: auto;
+.text-body{
+  margin-top: 25px;
 }

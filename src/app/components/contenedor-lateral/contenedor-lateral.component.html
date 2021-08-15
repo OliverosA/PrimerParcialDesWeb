@@ -1,35 +1,11 @@
 <div class="ion-float-end overflow-auto" id="divCartasLateral">
   <div class="list-group">
-    <a href="#" class="list-group-item list-group-item-action">
+    <a *ngFor="let item of elementos" href="#" class="list-group-item list-group-item-action">
       <div class="ion-float-lg-left">
-        <img src="assets/Images/angular-bg.png" class="img">
+        <img src="{{item.imagen}}" class="img">
       </div>
-      <div class="align-text-top">
-        Click Informacion Click Informacion
-      </div>
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">
-      <div class="ion-float-lg-left">
-        <img src="assets/Images/angular-bg.png" class="img">
-      </div>
-      <div class="align-text-top">
-        Click Informacion Click Informacion
-      </div>
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">
-      <div class="ion-float-lg-left">
-        <img src="assets/Images/angular-bg.png" class="img">
-      </div>
-      <div class="align-text-top">
-        Click Informacion Click Informacion
-      </div>
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">
-      <div class="ion-float-lg-left">
-        <img src="assets/Images/angular-bg.png" class="img">
-      </div>
-      <div class="align-text-top">
-        Click Informacion Click Informacion
+      <div class="text-body">
+        {{item.nombre}}
       </div>
     </a>
   </div>
