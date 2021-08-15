@@ -6,13 +6,15 @@ import { IonicModule } from '@ionic/angular';
 import { ContenedorPrincipalComponent } from './components/contenedor-principal/contenedor-principal.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ContenedorLateralComponent } from './components/contenedor-lateral/contenedor-lateral.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContenedorPrincipalComponent,
     NavBarComponent,
-    ContenedorLateralComponent
+    ContenedorLateralComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
