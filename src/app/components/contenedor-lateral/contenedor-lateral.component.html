@@ -1,6 +1,6 @@
 <div class="ion-float-end overflow-auto" id="divCartasLateral">
   <div class="list-group">
-    <a *ngFor="let item of elementos" href="#" class="list-group-item list-group-item-action">
+    <a href="#" *ngFor="let item of elementos" (click)="enviarInfo(item)" class="list-group-item list-group-item-action">
       <div class="ion-float-lg-left">
         <img src="{{item.imagen}}" class="img">
       </div>

@@ -1,12 +1,11 @@
-<div class="container-fluid ion-align-items-center">
+<div class="container-fluid ion-align-items-center" >
   <app-contenedor-lateral></app-contenedor-lateral>
   <form>
-    <div class="container justify-content-center" id="contenedorFormPrincipal">
-      <img src="assets/Images/angular-bg.png" width="800" height="500">
+    <div  class="container justify-content-center" id="contenedorFormPrincipal">
+      <img src="{{imagenRecibida}}" width="800" height="400">
       <div id="divParrafo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur urna sit amet urna condimentum consequat. Nunc et leo blandit, fringilla lacus vitae, dignissim ipsum. Pellentesque vel ante enim. Sed pulvinar felis sed sem feugiat, sit amet pulvinar ante congue. Duis dictum tellus eu mauris pretium, in efficitur leo pellentesque. Praesent eget rutrum lorem, quis dignissim arcu. Pellentesque placerat consectetur dolor. Curabitur ultrices feugiat consectetur. Aenean aliquam, nibh id vestibulum vulputate, lacus neque mollis ipsum, eu scelerisque lorem turpis at elit. Vestibulum vel imperdiet est, tempor dignissim diam. Vivamus viverra ac lorem ac lacinia. Nam condimentum posuere mi quis tempus. Integer ornare, neque vitae ullamcorper auctor, sapien lectus fermentum odio, non gravida purus ex quis ligula. Donec a ultrices lorem. In pretium venenatis pharetra.
-           s eu vestibulum. Sed faucibus eros ac justo cursus vulputate a pharetra ipsum.
-        </p>
+        <h1>{{nombreRecibido}}</h1>
+        <p>{{descripcionRecibida}}</p>
       </div>
     </div>
   </form>
